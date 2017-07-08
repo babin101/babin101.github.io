@@ -1,0 +1,137 @@
+p, h1, h2, h3, h4, h5, h6, a {
+	font-family: 'Cutive Mono', monospace;
+}
+
+h1 {
+	font-size: 5em;
+	margin: 0;
+}
+
+p {
+	font-size: 1em;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+/*Navbar*/
+
+#navbar-home {
+	position: absolute;
+	bottom: 20px;
+	width: 92%;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	/*padding-bottom: 10px;*/
+}
+
+#navbar {
+	position: fixed;
+	padding: 10px 0;
+	bottom: 0;
+	width: 92%;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	background-color: #EEF5DB;
+	z-index: 1000;
+	/*padding-bottom: 10px;*/
+}
+
+/*Use this once portfolio gets too full*/
+
+
+.navbar-link {
+	font-size: 2em;
+	margin-left: 25px;
+	color: black !important;
+	text-decoration: none !important;
+	opacity: 0.2;
+	transition: opacity 0.5s ease;
+}
+
+.navbar-link:hover {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+/*Buttons*/
+
+.btn-main {
+	background-color: #D6D1B1;
+	width: 35%;
+	color: black;
+
+}
+
+/*General*/
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+#main {
+	margin-top: 40px;
+}
+
+.vcenter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.col-md-6 {
+	padding: 0;
+	float: left;
+}
+
+#col-left {
+	height: 100%;
+	background-image: url("/img/profile.jpg");
+	background-size: cover;
+}
+
+#col-right {
+	background-color: #EEF5DB;
+	height: 100%;
+	padding: 0 4%;
+	max-height: 100vh;
+	overflow-y: scroll;
+}
+
+/*Portfolio*/
+
+.portfolio-item {
+	background-size: cover;
+	height: 150px;
+	width: 46vw;
+	/*margin-left: -4vw;*/
+	opacity: 0.7;
+	transition: opacity 0.5s ease;
+}
+
+.portfolio-item:hover {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+.portfolio-inner {
+}
+
+.portfolio-inner p {
+	color: white;
+	font-size: 3em;
+	margin-left: 4vw;
+}
+
+
+
+
+
+
+
+
+
+
+
